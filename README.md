@@ -105,8 +105,8 @@ croma-product-wise-sales-analytics/
 │
 └── Screenshots/
     ├── 01_Croma_SQL_Query_Execution.png
-    ├── 02_Fiscal_Year_Function.png
-    ├── 03_Fiscal_Quarter_Function.png
+    ├── 03_Fiscal_Year_Function.png
+    ├── 02_Fiscal_Quarter_Function.png
     └── 04_Croma_Excel_Sales_Report.png
 ```
 
