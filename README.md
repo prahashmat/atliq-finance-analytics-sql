@@ -80,17 +80,16 @@ Custom MySQL functions were implemented to calculate fiscal years and fiscal qua
 ## Project Screenshots
 
 ### 1. SQL Query Execution
-![SQL Query Execution](Screenshots/01_Croma_SQL_Query_Execution.png)
+![SQL Query Execution](01_Croma_SQL_Query_Execution.png)
 
 ### 2. Fiscal Year Function
-![Fiscal Year Function](Screenshots/02_Fiscal_Year_Function.png)
+![Fiscal Year Function](02_Fiscal_Year_Function.png)
 
 ### 3. Fiscal Quarter Function
-![Fiscal Quarter Function](Screenshots/03_Fiscal_Quarter_Function.png)
+![Fiscal Quarter Function](03_Fiscal_Quarter_Function.png)
 
 ### 4. Excel Sales Report
-![Excel Sales Report](Screenshots/04_Croma_Excel_Sales_Report.png)
-
+![Excel Sales Report](04_Croma_Excel_Sales_Report.png)
 ## Repository Structure
 
 ```text
