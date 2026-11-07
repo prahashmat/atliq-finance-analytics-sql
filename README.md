@@ -1,47 +1,85 @@
-# Croma India – Product-Wise Sales Analytics (FY2021)
+# AtliQ Finance Analytics – SQL Projects
 
-**Technologies:** MySQL, SQL  
-**Domain:** Retail Sales Analytics  
+**Technologies:** MySQL, SQL, MySQL Workbench  
+**Domain:** Finance Analytics | Sales Analytics | Business Reporting  
 **Learning Platform:** Codebasics  
 **Industry Case Study:** AtliQ Technologies
 
 ## Project Overview
 
-This project focuses on generating a product-wise sales report for Croma India for Financial Year 2021 using MySQL.
+This repository showcases practical SQL projects completed as part of the SQL curriculum offered by **Codebasics**.
 
-The project was completed as part of the SQL curriculum offered by **Codebasics**, which incorporates practical, industry-oriented learning through business scenarios and datasets.
+The curriculum incorporates industry-oriented business scenarios, datasets and analytical requirements through **AtliQ Technologies**. These projects provided an opportunity to apply SQL concepts to business reporting and data analysis problems.
 
-The exercise was based on a business case presented through **AtliQ Technologies**, involving Croma India's sales data. The objective was to apply SQL concepts to retrieve product-level sales information and generate a structured report for further analysis in Microsoft Excel.
+The work focuses on querying relational databases, combining information from multiple tables, developing custom SQL functions and stored procedures, and generating structured sales reports.
 
-## Business Objective
+## Projects Included
 
-Generate a product-wise sales report for Croma India (Customer Code: 90002002) for FY2021, containing the following fields:
+### 1. Croma India – Product-Wise Sales Analytics (FY2021)
 
-1. Month
-2. Product Name
-3. Product Variant
-4. Sold Quantity
-5. Gross Price Per Item
-6. Gross Price Total
+Developed a SQL-based reporting solution to generate monthly product-wise sales information for Croma India (Customer Code: 90002002).
+
+**Business Requirements:**
+- Month
+- Product Name
+- Product Variant
+- Sold Quantity
+- Gross Price Per Item
+- Gross Price Total
+
+**Technical Implementation:**
+- Joined sales, product and gross pricing tables.
+- Applied customer and fiscal-year filters.
+- Calculated gross sales values.
+- Created custom fiscal-year and fiscal-quarter functions.
+
+### 2. Finance Analytics – Monthly Gross Sales
+
+Worked on SQL-based monthly gross sales reporting using customer and sales information.
+
+**Technical Concepts:**
+- Stored procedures
+- SQL aggregation
+- Gross sales calculations
+- Customer-level reporting
+- Parameterized SQL execution
+
+### 3. Finance Analytics – Yearly Gross Sales
+
+Developed SQL queries for yearly gross sales analysis using sales and pricing information.
+
+**Technical Concepts:**
+- Aggregate functions
+- SUM()
+- GROUP BY
+- Fiscal-year calculations
+- Relational database querying
 
 ## Tools & Technologies
 
-- MySQL Workbench
-- SQL
-- CSV
-- Microsoft Excel
+| Technology | Application |
+|---|---|
+| MySQL | Relational database management |
+| SQL | Data retrieval and analysis |
+| MySQL Workbench | SQL development and execution |
+| CSV | Dataset handling |
+| Microsoft Excel | Sales reporting |
 
-## Technical Implementation
+## SQL Concepts Demonstrated
 
-The project involved:
-
-- Retrieving sales transaction records.
-- Joining sales transactions with product information using product codes.
-- Integrating gross pricing information using product codes and fiscal years.
-- Filtering records for the specified customer and financial year.
-- Calculating gross sales value using sold quantity and gross price per item.
-- Sorting the resulting report chronologically.
-- Creating custom SQL functions for fiscal-year and fiscal-quarter calculations.
+- SELECT statements
+- INNER JOIN
+- USING clause
+- WHERE clause
+- ORDER BY
+- GROUP BY
+- Aggregate functions
+- Mathematical calculations
+- CASE WHEN statements
+- Date manipulation
+- Custom SQL functions
+- Stored procedures
+- Fiscal-year and fiscal-quarter calculations
 
 ## Fiscal Calendar
 
@@ -56,72 +94,43 @@ The reporting follows a September–August financial year.
 
 Custom MySQL functions were implemented to calculate fiscal years and fiscal quarters based on transaction dates.
 
-## SQL Concepts Applied
-
-- INNER JOIN
-- USING clause
-- WHERE clause
-- ORDER BY
-- Date manipulation
-- Mathematical calculations
-- CASE WHEN statements
-- Custom SQL functions
-- Relational database querying
-
-## Dataset Overview
-
-- 3,006 sales records
-- 334 unique product codes
-- 710,324 units sold across the supplied records
-- Nine distinct months represented
-
-**Data Coverage:** The supplied dataset does not contain records for November 2020, March 2021 or July 2021. The analysis reflects the available records.
-
 ## Project Screenshots
 
-### 1. SQL Query Execution
-![SQL Query Execution](01_Croma_SQL_Query_Execution.png)
+### Croma India – Product-Wise Sales Analytics
 
-### 2. Fiscal Quarter Function
+![Croma SQL Query Execution](01_Croma_SQL_Query_Execution.png)
+
 ![Fiscal Quarter Function](02_Fiscal_Quarter_Function.png)
 
-### 3. Fiscal Year Function
 ![Fiscal Year Function](03_Fiscal_Year_Function.png)
 
-### 4. Excel Sales Report
-![Excel Sales Report](04_Croma_Excel_Sales_Report.png)
-## Repository Structure
+![Croma Excel Sales Report](04_Croma_Excel_Sales_Report.png)
 
-```text
-croma-product-wise-sales-analytics/
-│
-├── README.md
-│
-├── finance_analytics_SQL.sql
-├── get_fiscal_year_function_AtliQ.sql
-├── get_fiscal_quarter_function_AtliQ.sql
-│
-├── croma_FY_2021_all_transactions.csv
-│
-└── Screenshots/
-    ├── 01_Croma_SQL_Query_Execution.png
-    ├── 03_Fiscal_Year_Function.png
-    ├── 02_Fiscal_Quarter_Function.png
-    └── 04_Croma_Excel_Sales_Report.png
-```
+### Finance Analytics – Additional SQL Exercises
+
+![Monthly Gross Sales Stored Procedure](05_Monthly_Gross_Sales_Stored_Procedure.png)
+
+![Monthly Gross Sales Execution](06_Monthly_Gross_Sales_Execution.png)
+
+![Yearly Gross Sales](07_Yearly_Gross_Sales.png)
+
+![Croma Monthly Gross Sales](08_Croma_Monthly_Gross_Sales.png)
 
 ## Key Learning Outcomes
 
-- Translating business requirements into SQL queries.
-- Working with relational databases and multiple-table joins.
-- Implementing custom MySQL functions.
-- Applying business-specific fiscal-year and fiscal-quarter logic.
-- Integrating sales, product and pricing information.
-- Preparing structured datasets for business reporting.
+- Applying SQL to practical business reporting scenarios.
+- Working with relational databases and multi-table joins.
+- Writing queries for sales and financial analysis.
+- Developing custom MySQL functions.
+- Creating and executing stored procedures.
+- Applying aggregation and grouping techniques.
+- Working with business-specific fiscal calendars.
+- Translating business requirements into SQL solutions.
 
----
+## Learning & Project Context
 
 **Learning Platform:** Codebasics  
 **Curriculum:** SQL  
 **Industry Case Study:** AtliQ Technologies  
-**Business Case:** Croma India – FY2021 Product-Wise Sales Analytics
+**Project Domain:** Finance Analytics and Sales Reporting
+
